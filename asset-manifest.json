@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Skillshoot/static/css/main.0bd74686.css",
+    "main.js": "/Skillshoot/static/js/main.039163e3.js",
+    "static/js/453.b72b36d6.chunk.js": "/Skillshoot/static/js/453.b72b36d6.chunk.js",
+    "static/media/about.png": "/Skillshoot/static/media/about.94191ffeee870dc8c3ef.png",
+    "static/media/bg.png": "/Skillshoot/static/media/bg.c9c425d3894c10b31e92.png",
+    "static/media/LOGO.png": "/Skillshoot/static/media/LOGO.62a5ff2870de7230d606.png",
+    "static/media/new.png": "/Skillshoot/static/media/new.62a5ff2870de7230d606.png",
+    "static/media/linked.png": "/Skillshoot/static/media/linked.a2530d2b78acfeb275fc.png",
+    "static/media/twiit.png": "/Skillshoot/static/media/twiit.488c78bb72b7b47cccaa.png",
+    "static/media/yt.png": "/Skillshoot/static/media/yt.7b215b2c9c002aef496d.png",
+    "static/media/fb.png": "/Skillshoot/static/media/fb.f41900c7a67ea266fe94.png",
+    "static/media/ab-logo.png": "/Skillshoot/static/media/ab-logo.4073a9006387f839f9c4.png",
+    "index.html": "/Skillshoot/index.html",
+    "main.0bd74686.css.map": "/Skillshoot/static/css/main.0bd74686.css.map",
+    "main.039163e3.js.map": "/Skillshoot/static/js/main.039163e3.js.map",
+    "453.b72b36d6.chunk.js.map": "/Skillshoot/static/js/453.b72b36d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bd74686.css",
+    "static/js/main.039163e3.js"
+  ]
+}
