@@ -103,7 +103,7 @@ const MainApp = () => {
 };
 
 const AppWrapper = () => (
-  <BrowserRouter>
+  <BrowserRouter  basename="/Skillshoot">
     <MainApp />
   </BrowserRouter>
 );

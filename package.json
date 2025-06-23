@@ -2,7 +2,8 @@
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rabiaabdulrauf.github.io/Skillshoot",
+  "homepage": "https://rabiaabdulrauf.github.io/Skillshoot"
+
 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
