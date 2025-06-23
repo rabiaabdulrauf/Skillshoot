@@ -46,7 +46,6 @@ const Learning = () => {
               <div className="flex gap-2 border-t-2 ">
                 <div className="font-bold">★ 4.7</div>
                 <div className="font-thin  ">447K rating</div>
-                <div className=" font-thin">87.4 total hours</div>
               </div>
             </div>
 
@@ -60,7 +59,6 @@ const Learning = () => {
               <div className="flex gap-2 border-t-2 ">
                 <div className=" font-bold">★ 4.7</div>
                 <div className="font-thin">447K rating</div>
-                <div className="font-thin ">87.4 total hours</div>
               </div>
             </div>
 
@@ -75,7 +73,7 @@ const Learning = () => {
               <div className="flex gap-2 border-t-2 ">
                 <div className="font-bold">★ 4.7</div>
                 <div className="font-thin">447K rating</div>
-                <div className="font-thin ">87.4 total hours</div>
+                
               </div>
             </div>
           </div>
