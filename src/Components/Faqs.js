@@ -28,8 +28,8 @@ const Faqs = () => {
       </svg>
     </label>
     <div class="bg-white px-4 py-2 hidden peer-checked:block">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend viverra ipsum, sit amet faucibus dui bibendum sed
-    </div>
+SkillShoot is a modern online learning platform designed to equip learners with practical, job-ready skills. We offer: 
+<br />1: Project Management <br />2: Full stack development <br />3: Digital marketing    </div>
   </div>
   <div class="w-full border border-gray-300 rounded mb-2">
     <input type="checkbox" id="accordion2" class="peer hidden"/>
@@ -40,7 +40,7 @@ const Faqs = () => {
       </svg>
     </label>
     <div class="bg-white px-4 py-2 hidden peer-checked:block">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend viverra ipsum, sit amet faucibus dui bibendum sed
+      Arise by SkillShoot stands out because we combine education with real growth — not just certifications. 
     </div>
   </div>
   <div class="w-full border border-gray-300 rounded mb-2">
@@ -52,7 +52,8 @@ const Faqs = () => {
       </svg>
     </label>
     <div class="bg-white px-4 py-2 hidden peer-checked:block">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend viverra ipsum, sit amet faucibus dui bibendum sed
+      At SkillShoot, we believe in affordable, flexible, and value-packed pricing — no hidden fees, no fluff.
+      
     </div>
   </div>
 </div>

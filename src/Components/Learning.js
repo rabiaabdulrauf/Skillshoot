@@ -1,6 +1,10 @@
 
 
 import React, { useEffect, useRef, useState } from 'react';
+import web from "../Assets/fs (2).png";
+import pm from "../Assets/pm.png";
+import dm from "../Assets/dm.png";
+import { Link } from 'react-router-dom';
 
 const Learning = () => {
   const [visible, setVisible] = useState(false);
@@ -21,11 +25,6 @@ const Learning = () => {
     return () => observer.disconnect();
   }, []);
 
-  // delay generator helper
-  const getDelay = (index) => ({
-    transitionDelay: `${index * 200}ms`,
-  });
-
   return (
     <div ref={sectionRef} id='course'>
       <div className="h-auto pb-4 pt-6 w-full bg-gradient-to-t from-white to-purple-200">
@@ -36,38 +35,96 @@ const Learning = () => {
         <div className="flex flex-col h-auto mt-4 gap-6 justify-center px-4">
           {/* First Row */}
           <div className="flex flex-row flex-wrap justify-center gap-10">
-            {[0, 1, 2].map((i) => (
-              <div
-                key={i}
-                className={`border-2 border-white h-40 w-[22%] min-w-[250px] flex flex-col items-start justify-center pl-3 gap-2 bg-white transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-                style={getDelay(i)}
-              >
-                <h2 className="font-bold">{['Expert Team', 'Client Approach', 'Proven Experience'][i]}</h2>
-                <p>Lorem ipsum dolor sit ame, consectetur adipiscing elit</p>
+            <div
+              className={`border-2 border-white h-100 w-[22%] min-w-[250px] flex flex-col items-start justify-center  p-2 gap-2 bg-white transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              style={{ transitionDelay: '0ms' }}
+            >
+              <img src={web} alt="" className='h-full '  />
+              <Link to='/stack'>
+              <h2 className="font-bold">Full Stack web Developer</h2>
+              </Link>
+              <div className="flex gap-2 border-t-2 ">
+                <div className="font-bold">★ 4.7</div>
+                <div className="font-thin  ">447K rating</div>
+                <div className=" font-thin">87.4 total hours</div>
               </div>
-            ))}
+            </div>
+
+            <div
+              className={`border-2 border-white h-100 w-[22%] min-w-[250px] flex flex-col items-start justify-center p-2 gap-2 bg-white transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              style={{ transitionDelay: '200ms' }}
+            ><img src={dm} alt="" className='' />
+              <Link to='/digital'>
+              <h2 className="font-bold">Digital Marketing</h2>
+              </Link>
+              <div className="flex gap-2 border-t-2 ">
+                <div className=" font-bold">★ 4.7</div>
+                <div className="font-thin">447K rating</div>
+                <div className="font-thin ">87.4 total hours</div>
+              </div>
+            </div>
+
+            <div
+              className={`border-2 border-white h-100 w-[22%] min-w-[250px] flex flex-col items-start justify-center p-2 gap-2 bg-white transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              style={{ transitionDelay: '400ms' }}
+            >
+            <img src={pm} alt="" className='' />
+              <Link to='/project'>
+              <h2 className="font-bold">Project Management</h2>
+              </Link>
+              <div className="flex gap-2 border-t-2 ">
+                <div className="font-bold">★ 4.7</div>
+                <div className="font-thin">447K rating</div>
+                <div className="font-thin ">87.4 total hours</div>
+              </div>
+            </div>
           </div>
 
           {/* Second Row */}
-          <div className="flex flex-row flex-wrap justify-center gap-10">
-            {[3, 4, 5].map((i) => (
-              <div
-                key={i}
-                className={`border-2 border-white h-40 w-[22%] min-w-[250px] flex flex-col items-start justify-center pl-3 gap-2 bg-white transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-                style={getDelay(i)}
-              >
-                <h2 className="font-bold">{['Expert Team', 'Client Approach', 'Proven Experience'][i - 3]}</h2>
-                <p>Lorem ipsum dolor sit ame, consectetur adipiscing elit</p>
+          {/* <div className="flex flex-row flex-wrap justify-center gap-10">
+           <div
+              className={`border-2 border-white h-100 w-[22%] min-w-[250px] flex flex-col items-start justify-center p-2 gap-2 bg-white transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              style={{ transitionDelay: '200ms' }}
+            ><img src="" alt="" className='' />
+              
+              <h2 className="font-bold">Digital Marketing</h2>
+              <div className="flex gap-2 border-t-2 ">
+                <div className=" font-bold">★ 4.7</div>
+                <div className="font-thin">447K rating</div>
+                <div className="font-thin ">87.4 total hours</div>
               </div>
-            ))}
-          </div>
+            </div>
+
+            <div
+              className={`border-2 border-white h-100 w-[22%] min-w-[250px] flex flex-col items-start justify-center p-2 gap-2 bg-white transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              style={{ transitionDelay: '200ms' }}
+            ><img src={dm} alt="" className='' />
+              
+              <h2 className="font-bold">Digital Marketing</h2>
+              <div className="flex gap-2 border-t-2 ">
+                <div className=" font-bold">★ 4.7</div>
+                <div className="font-thin">447K rating</div>
+                <div className="font-thin ">87.4 total hours</div>
+              </div>
+            </div>
+
+            <div
+              className={`border-2 border-white h-100 w-[22%] min-w-[250px] flex flex-col items-start justify-center p-2 gap-2 bg-white transition-all duration-1000 ease-out ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+              style={{ transitionDelay: '200ms' }}
+            ><img src={dm} alt="" className='' />
+              
+              <h2 className="font-bold">Digital Marketing</h2>
+              <div className="flex gap-2 border-t-2 ">
+                <div className=" font-bold">★ 4.7</div>
+                <div className="font-thin">447K rating</div>
+                <div className="font-thin ">87.4 total hours</div>
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
-
     </div>
   );
 };
 
 export default Learning;
-
-

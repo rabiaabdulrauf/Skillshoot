@@ -56,7 +56,13 @@ const About = () => {
 
           <div className="pt-10">
             <p className="pl-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             ★ Learn at your pace, anytime – anywhere. 
+            </p>
+             <p className="pl-4">
+            ★ Real-world projects & expert support.
+            </p>
+             <p className="pl-4">
+            ★  Job-ready skills that make a difference. 
             </p>
           </div>
 
