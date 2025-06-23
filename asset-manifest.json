@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/Skillshoot/static/css/main.0bd74686.css",
-    "main.js": "/Skillshoot/static/js/main.039163e3.js",
+    "main.css": "/Skillshoot/static/css/main.b9916900.css",
+    "main.js": "/Skillshoot/static/js/main.a15d6b77.js",
     "static/js/453.b72b36d6.chunk.js": "/Skillshoot/static/js/453.b72b36d6.chunk.js",
     "static/media/about.png": "/Skillshoot/static/media/about.94191ffeee870dc8c3ef.png",
+    "static/media/pm.png": "/Skillshoot/static/media/pm.28f60d664da8f9ba5636.png",
+    "static/media/fs (2).png": "/Skillshoot/static/media/fs (2).6f39ec46dd26dc81d748.png",
+    "static/media/dm.png": "/Skillshoot/static/media/dm.f2bf423f7fa34d61c9ae.png",
     "static/media/bg.png": "/Skillshoot/static/media/bg.c9c425d3894c10b31e92.png",
+    "static/media/log.webp": "/Skillshoot/static/media/log.f53d00169347df856860.webp",
     "static/media/LOGO.png": "/Skillshoot/static/media/LOGO.62a5ff2870de7230d606.png",
     "static/media/new.png": "/Skillshoot/static/media/new.62a5ff2870de7230d606.png",
     "static/media/linked.png": "/Skillshoot/static/media/linked.a2530d2b78acfeb275fc.png",
@@ -13,12 +17,12 @@
     "static/media/fb.png": "/Skillshoot/static/media/fb.f41900c7a67ea266fe94.png",
     "static/media/ab-logo.png": "/Skillshoot/static/media/ab-logo.4073a9006387f839f9c4.png",
     "index.html": "/Skillshoot/index.html",
-    "main.0bd74686.css.map": "/Skillshoot/static/css/main.0bd74686.css.map",
-    "main.039163e3.js.map": "/Skillshoot/static/js/main.039163e3.js.map",
+    "main.b9916900.css.map": "/Skillshoot/static/css/main.b9916900.css.map",
+    "main.a15d6b77.js.map": "/Skillshoot/static/js/main.a15d6b77.js.map",
     "453.b72b36d6.chunk.js.map": "/Skillshoot/static/js/453.b72b36d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bd74686.css",
-    "static/js/main.039163e3.js"
+    "static/css/main.b9916900.css",
+    "static/js/main.a15d6b77.js"
   ]
 }
