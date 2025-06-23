@@ -44,7 +44,7 @@ const Bar = () => {
             </div>
              <div className="hidden sm:flex flex-wrap items-center gap-3 md:pl-24 lg:pl-6">
               <div className="flex  space-x-3 lg:gap-4 items-center ">
-                <a href="/" className="rounded-md  lg:px-3 md:px-1 py-2 text-sm font-medium hover:text-purple-500">Home</a>
+                <a href="/" className="rounded-md active lg:px-3 md:px-1 py-2 text-sm font-medium hover:text-purple-500">Home</a>
                 <a href="#about" className="rounded-md lg:px-3 md:px-1 py-2 text-sm font-medium hover:text-purple-500 whitespace-nowrap">About us</a>
 
                 <a href="#course" className="rounded-md lg:px-3 md:px-1 py-2 text-sm font-medium hover:text-purple-500">Courses</a>
