@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Skillshoot/static/css/main.31f3b1b8.css",
-    "main.js": "/Skillshoot/static/js/main.2f76b68a.js",
+    "main.js": "/Skillshoot/static/js/main.72e9cacc.js",
     "static/js/453.d35530d0.chunk.js": "/Skillshoot/static/js/453.d35530d0.chunk.js",
     "static/media/about.png": "/Skillshoot/static/media/about.94191ffeee870dc8c3ef.png",
     "static/media/bg.png": "/Skillshoot/static/media/bg.c9c425d3894c10b31e92.png",
@@ -20,11 +20,11 @@
     "static/media/ab-logo.png": "/Skillshoot/static/media/ab-logo.4073a9006387f839f9c4.png",
     "index.html": "/Skillshoot/index.html",
     "main.31f3b1b8.css.map": "/Skillshoot/static/css/main.31f3b1b8.css.map",
-    "main.2f76b68a.js.map": "/Skillshoot/static/js/main.2f76b68a.js.map",
+    "main.72e9cacc.js.map": "/Skillshoot/static/js/main.72e9cacc.js.map",
     "453.d35530d0.chunk.js.map": "/Skillshoot/static/js/453.d35530d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31f3b1b8.css",
-    "static/js/main.2f76b68a.js"
+    "static/js/main.72e9cacc.js"
   ]
 }
